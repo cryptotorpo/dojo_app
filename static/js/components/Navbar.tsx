@@ -60,16 +60,6 @@ const navItemsLanding = [
     id: "docs",
   },
   {
-    name: "Stake",
-    activeFontColor: "rgba(134, 60, 255, 1)",
-    fontWeight: 500,
-    fontSize: "18px",
-    activeFontFamily: "Roboto",
-    fontFamily: "Roboto",
-    url: "https://dojoprotocol.com/stake",
-    id: "stake",
-  },
-  {
     name: "Dashboard",
     activeFontColor: "rgba(134, 60, 255, 1)",
     fontWeight: 500,

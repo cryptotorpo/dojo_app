@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   const contacts = [
     {
       name: "X",
-      link: "https://x.com/dojoai_erc20",
+      link: "https://x.com/Dojo_GPU",
       icon: XIcon,
     },
     {
@@ -35,10 +35,6 @@ const Footer: React.FC = () => {
     {
       name: "Docs",
       link: "https://docs.dojoai.ink",
-    },
-    {
-      name: "Stake",
-      link: "https://staking.dojoai.ink",
     },
     {
       name: "Dashboard",

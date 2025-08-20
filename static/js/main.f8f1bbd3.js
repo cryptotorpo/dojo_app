@@ -61524,7 +61524,7 @@
         },
         mf = () => {
           const e = [
-              { name: "X", link: "https://x.com/dojoai_erc20", icon: $u },
+              { name: "X", link: "https://x.com/Dojo_GPU", icon: $u },
               {
                 name: "Telegram",
                 link: "https://t.me/dojoai_erc20",
@@ -61596,10 +61596,6 @@
                             { name: "AI", link: "https://dojoprotocol.com" },
                             { name: "VPN", link: "https://dojoprotocol.com" },
                             { name: "Docs", link: "https://docs.dojoai.ink" },
-                            {
-                              name: "Stake",
-                              link: "https://staking.dojoai.ink",
-                            },
                             { name: "Dashboard", link: "/" },
                           ].map((e, n) =>
                             (0, js.jsx)(
