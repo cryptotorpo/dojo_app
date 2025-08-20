@@ -1,0 +1,63 @@
+var _rect, _rect2, _rect3, _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgGpu(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 56,
+    height: 58,
+    viewBox: "0 0 56 58",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 56,
+    height: 57.6,
+    rx: 28,
+    fill: "#09090A"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.4,
+    y: 0.4,
+    width: 55.2,
+    height: 56.8,
+    rx: 27.6,
+    stroke: "url(#paint0_linear_6024_12665)",
+    strokeOpacity: 0.08,
+    strokeWidth: 0.8
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.4,
+    y: 0.4,
+    width: 55.2,
+    height: 56.8,
+    rx: 27.6,
+    stroke: "white",
+    strokeOpacity: 0.01,
+    strokeWidth: 0.8
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M22 34.8H34V22.8H22V34.8ZM30 36.8H26V38.8H24V36.8H21C20.7348 36.8 20.4804 36.6947 20.2929 36.5072C20.1054 36.3196 20 36.0653 20 35.8V32.8H18V30.8H20V26.8H18V24.8H20V21.8C20 21.5348 20.1054 21.2805 20.2929 21.0929C20.4804 20.9054 20.7348 20.8 21 20.8H24V18.8H26V20.8H30V18.8H32V20.8H35C35.2652 20.8 35.5196 20.9054 35.7071 21.0929C35.8946 21.2805 36 21.5348 36 21.8V24.8H38V26.8H36V30.8H38V32.8H36V35.8C36 36.0653 35.8946 36.3196 35.7071 36.5072C35.5196 36.6947 35.2652 36.8 35 36.8H32V38.8H30V36.8ZM24 24.8H32V32.8H24V24.8Z",
+    fill: "#D1D1D1"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_12665",
+    x1: 28,
+    y1: 0,
+    x2: 28,
+    y2: 45.6,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgGpu);
+export default __webpack_public_path__ + "static/media/gpu.e853c992d4ef854c29f7feafe26ad991.svg";
+export { ForwardRef as ReactComponent };

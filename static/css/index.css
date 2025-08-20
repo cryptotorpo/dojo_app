@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "ProximaNovaBlack";
+  src: url("./assets/fonts/proximaNova/proximanova_black.otf");
+}
+
+@font-face {
+  font-family: "ProximaNovaLight";
+  src: url("./assets/fonts/proximaNova/proximanova_light.otf");
+}
+
+@font-face {
+  font-family: "ProximaNovaRegular";
+  src: url("./assets/fonts/proximaNova/proximanova_regular.ttf");
+}
+
+@font-face {
+  font-family: "ProximaNovaBold";
+  src: url("./assets/fonts/proximaNova/proximanova_bold.otf");
+}
+
+@font-face {
+  font-family: "ProximaNovaExtraBold";
+  src: url("./assets/fonts/proximaNova/proximanova_extrabold.otf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", "Inter", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.worker-stats-box {
+  width: 32%;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+}
+
+.worker-title {
+  border-radius: 32px;
+  background-color: rgba(255, 255, 255, 0.06);
+  padding: 6px 20px 6px 20px;
+  /* width: max-content; */
+  margin-bottom: 10px;
+
+  margin-right: 20px;
+  font-family: "ProximaNovaLight";
+  color: rgba(209, 209, 209, 1);
+  font-weight: 300;
+}
+
+.worker-stats-value {
+  background-color: #f3ec78;
+  background-image: linear-gradient(180deg, #ffffff 0%, #363a3f 140.97%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+
+  text-align: left;
+  font-size: 40px;
+  font-family: "ProximaNovaBold";
+}
+
+.MuiPopover-paper {
+  background: none !important;
+}
+
+.gm-style-cc {
+  display: none;
+}
+
+a[href^="http://maps.google.com/maps"],a[href^="https://maps.google.com/maps"]
+{
+  display: none !important;
+}
+
+.MuiDrawer-root {
+  will-change: transform, opacity;
+}
+
+@media (min-width: 1043px) and (max-width: 1700px) {
+  .worker-stats-value {
+    font-size: 25px;
+  }
+  .worker-title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .worker-stats-value {
+    font-size: 32px;
+  }
+  .worker-title {
+    font-size: 16px;
+  }
+}

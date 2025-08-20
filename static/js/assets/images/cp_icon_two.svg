@@ -1,0 +1,39 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCpIconTwo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17.2 6.00598C25.24 6.09298 26 7.24998 26 16L25.994 17.2C25.907 25.24 24.75 26 16 26L14.8 25.994C7.142 25.911 6.089 24.858 6.006 17.199L6 15.691L6.006 14.801C6.091 6.95098 7.196 6.04098 15.388 6.00098L17.199 6.00598H17.2ZM12.25 11H11.667C11.5072 10.9999 11.3527 11.0572 11.2315 11.1614C11.1104 11.2657 11.0307 11.4099 11.007 11.568L11 11.667V15.333C11 15.668 11.247 15.945 11.568 15.993L11.667 16H12.25C13.21 15.9999 14.1335 16.368 14.8302 17.0284C15.5269 17.6889 15.9438 18.5913 15.995 19.55L16 19.75V20.333C16 20.668 16.247 20.945 16.568 20.993L16.667 21H20.333C20.4928 21.0001 20.6473 20.9428 20.7685 20.8385C20.8896 20.7343 20.9693 20.59 20.993 20.432L21 20.333V19.75C20.9999 17.474 20.1131 15.2877 18.5277 13.6548C16.9422 12.022 14.7829 11.0711 12.508 11.004L12.25 11Z",
+    fill: "url(#paint0_linear_6024_9959)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_9959",
+    x1: 16,
+    y1: 6.00098,
+    x2: 16,
+    y2: 34.194,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCpIconTwo);
+export default __webpack_public_path__ + "static/media/cp_icon_two.012d45fa43fff3668e1499d21b5abaec.svg";
+export { ForwardRef as ReactComponent };

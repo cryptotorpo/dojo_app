@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCircledRightArrow(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16 15V12L20 16L16 20V17H12V15H16ZM16 6C21.52 6 26 10.48 26 16C26 21.52 21.52 26 16 26C10.48 26 6 21.52 6 16C6 10.48 10.48 6 16 6ZM16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8C11.58 8 8 11.58 8 16C8 20.42 11.58 24 16 24Z",
+    fill: "black"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCircledRightArrow);
+export default __webpack_public_path__ + "static/media/circled_right_arrow.fe6d37d5e81ad4d3678c6320e321fdef.svg";
+export { ForwardRef as ReactComponent };

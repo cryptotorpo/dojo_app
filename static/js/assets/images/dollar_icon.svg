@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDollarIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 33,
+    height: 33,
+    viewBox: "0 0 33 33",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 26.7236C10.977 26.7236 6.5 22.2466 6.5 16.7236C6.5 11.2006 10.977 6.72363 16.5 6.72363C22.023 6.72363 26.5 11.2006 26.5 16.7236C26.5 22.2466 22.023 26.7236 16.5 26.7236ZM16.5 24.7236C18.6217 24.7236 20.6566 23.8808 22.1569 22.3805C23.6571 20.8802 24.5 18.8454 24.5 16.7236C24.5 14.6019 23.6571 12.5671 22.1569 11.0668C20.6566 9.56649 18.6217 8.72363 16.5 8.72363C14.3783 8.72363 12.3434 9.56649 10.8431 11.0668C9.34285 12.5671 8.5 14.6019 8.5 16.7236C8.5 18.8454 9.34285 20.8802 10.8431 22.3805C12.3434 23.8808 14.3783 24.7236 16.5 24.7236ZM13 18.7236H18.5C18.6326 18.7236 18.7598 18.671 18.8536 18.5772C18.9473 18.4834 19 18.3562 19 18.2236C19 18.091 18.9473 17.9638 18.8536 17.8701C18.7598 17.7763 18.6326 17.7236 18.5 17.7236H14.5C13.837 17.7236 13.2011 17.4602 12.7322 16.9914C12.2634 16.5226 12 15.8867 12 15.2236C12 14.5606 12.2634 13.9247 12.7322 13.4559C13.2011 12.987 13.837 12.7236 14.5 12.7236H15.5V10.7236H17.5V12.7236H20V14.7236H14.5C14.3674 14.7236 14.2402 14.7763 14.1464 14.8701C14.0527 14.9638 14 15.091 14 15.2236C14 15.3562 14.0527 15.4834 14.1464 15.5772C14.2402 15.671 14.3674 15.7236 14.5 15.7236H18.5C19.163 15.7236 19.7989 15.987 20.2678 16.4559C20.7366 16.9247 21 17.5606 21 18.2236C21 18.8867 20.7366 19.5226 20.2678 19.9914C19.7989 20.4602 19.163 20.7236 18.5 20.7236H17.5V22.7236H15.5V20.7236H13V18.7236Z",
+    fill: "#D1D1D1"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDollarIcon);
+export default __webpack_public_path__ + "static/media/dollar_icon.3328e1ff893d8871a6c2d552d4b3b558.svg";
+export { ForwardRef as ReactComponent };

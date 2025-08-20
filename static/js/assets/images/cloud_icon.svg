@@ -1,0 +1,144 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCloudIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 60,
+    height: 60,
+    viewBox: "0 0 60 60",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    filter: "url(#filter0_di_6024_9763)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M8.00037 28C8.00037 15.8497 17.8501 6 30.0004 6C42.1506 6 52.0004 15.8497 52.0004 28C52.0004 40.1503 42.1506 50 30.0004 50C17.8501 50 8.00037 40.1503 8.00037 28Z",
+    fill: "#09090A",
+    shapeRendering: "crispEdges"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.00037 28C8.00037 15.8497 17.8501 6 30.0004 6C42.1506 6 52.0004 15.8497 52.0004 28C52.0004 40.1503 42.1506 50 30.0004 50C17.8501 50 8.00037 40.1503 8.00037 28Z",
+    fill: "url(#paint0_radial_6024_9763)",
+    fillOpacity: 0.12,
+    shapeRendering: "crispEdges"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.50037 28C8.50037 16.1259 18.1262 6.5 30.0004 6.5C41.8745 6.5 51.5004 16.1259 51.5004 28C51.5004 39.8741 41.8745 49.5 30.0004 49.5C18.1262 49.5 8.50037 39.8741 8.50037 28Z",
+    stroke: "url(#paint1_linear_6024_9763)",
+    strokeOpacity: 0.08,
+    shapeRendering: "crispEdges"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.50037 28C8.50037 16.1259 18.1262 6.5 30.0004 6.5C41.8745 6.5 51.5004 16.1259 51.5004 28C51.5004 39.8741 41.8745 49.5 30.0004 49.5C18.1262 49.5 8.50037 39.8741 8.50037 28Z",
+    stroke: "white",
+    strokeOpacity: 0.01,
+    shapeRendering: "crispEdges"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M35.0004 22.9999C33.3717 22.9997 31.7817 23.4965 30.4428 24.4239C29.1039 25.3513 28.0798 26.6651 27.5074 28.1899L29.3814 28.8929C29.8764 27.5783 30.8168 26.4789 32.0388 25.7863C33.2609 25.0936 34.6872 24.8516 36.0693 25.1022C37.4515 25.3528 38.7019 26.0803 39.603 27.158C40.504 28.2356 40.9985 29.5952 41.0004 30.9999C41.0004 32.5912 40.3682 34.1173 39.243 35.2425C38.1178 36.3677 36.5917 36.9999 35.0004 36.9999H25.0004C23.5836 37.0008 22.2122 36.5003 21.1291 35.587C20.0459 34.6738 19.3208 33.4067 19.0823 32.0102C18.8437 30.6137 19.107 29.1777 19.8256 27.9567C20.5442 26.7357 21.6716 25.8084 23.0084 25.3389C22.9227 23.6115 23.4796 21.9136 24.5716 20.5724C25.6636 19.2312 27.2134 18.3418 28.9223 18.0756C30.6312 17.8094 32.3782 18.1853 33.8264 19.1307C35.2746 20.0762 36.3215 21.5243 36.7654 23.1959C36.1861 23.0655 35.5941 22.9997 35.0004 22.9999Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M35.0004 22.9999C33.3717 22.9997 31.7817 23.4965 30.4428 24.4239C29.1039 25.3513 28.0798 26.6651 27.5074 28.1899L29.3814 28.8929C29.8764 27.5783 30.8168 26.4789 32.0388 25.7863C33.2609 25.0936 34.6872 24.8516 36.0693 25.1022C37.4515 25.3528 38.7019 26.0803 39.603 27.158C40.504 28.2356 40.9985 29.5952 41.0004 30.9999C41.0004 32.5912 40.3682 34.1173 39.243 35.2425C38.1178 36.3677 36.5917 36.9999 35.0004 36.9999H25.0004C23.5836 37.0008 22.2122 36.5003 21.1291 35.587C20.0459 34.6738 19.3208 33.4067 19.0823 32.0102C18.8437 30.6137 19.107 29.1777 19.8256 27.9567C20.5442 26.7357 21.6716 25.8084 23.0084 25.3389C22.9227 23.6115 23.4796 21.9136 24.5716 20.5724C25.6636 19.2312 27.2134 18.3418 28.9223 18.0756C30.6312 17.8094 32.3782 18.1853 33.8264 19.1307C35.2746 20.0762 36.3215 21.5243 36.7654 23.1959C36.1861 23.0655 35.5941 22.9997 35.0004 22.9999Z",
+    fill: "url(#paint2_linear_6024_9763)"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_di_6024_9763",
+    x: 0.000366211,
+    y: 0,
+    width: 60,
+    height: 60,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/React.createElement("feOffset", {
+    dy: 2
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 4
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "hardAlpha",
+    operator: "out"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.16 0"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow_6024_9763"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow_6024_9763",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/React.createElement("feOffset", {
+    dy: 1
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "hardAlpha",
+    operator: "arithmetic",
+    k2: -1,
+    k3: 1
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.15 0"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in2: "shape",
+    result: "effect2_innerShadow_6024_9763"
+  })), /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint0_radial_6024_9763",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(30.1598 50) scale(24.8696 32.8669)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white",
+    stopOpacity: 0.34
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_6024_9763",
+    x1: 30.0004,
+    y1: 6,
+    x2: 30.0004,
+    y2: 40.8333,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_6024_9763",
+    x1: 29.9985,
+    y1: 17.9922,
+    x2: 29.9985,
+    y2: 44.7878,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCloudIcon);
+export default __webpack_public_path__ + "static/media/cloud_icon.4e06df123b784905fc50f59465cb5f1c.svg";
+export { ForwardRef as ReactComponent };

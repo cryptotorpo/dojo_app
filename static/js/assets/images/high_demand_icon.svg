@@ -1,0 +1,42 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgHighDemandIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 40,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M35.9993 20C35.9993 28.8366 28.8358 36 19.9993 36M35.9993 20C35.9993 11.1634 28.8358 4 19.9993 4M35.9993 20H3.99927M19.9993 36C11.1627 36 3.99927 28.8366 3.99927 20M19.9993 36V4M19.9993 36C24.2913 36 27.1014 28.8366 27.1014 20C27.1014 11.1634 24.2913 4 19.9993 4M19.9993 36C15.7072 36 12.8972 28.8366 12.8972 20C12.8972 11.1634 15.7072 4 19.9993 4M19.9993 36C24.2913 36 32.3331 28.8366 32.3331 20C32.3331 11.1634 24.2913 4 19.9993 4M19.9993 36C15.7072 36 7.92725 28.8366 7.92725 20C7.92725 11.1634 15.7072 4 19.9993 4M19.9993 36C21.6046 36 22.906 28.8366 22.906 20C22.906 11.1634 21.6046 4 19.9993 4M19.9993 36C18.3939 36 17.0926 28.8366 17.0926 20C17.0926 11.1634 18.3939 4 19.9993 4M3.99927 20C3.99927 11.1634 11.1627 4 19.9993 4",
+    stroke: "url(#paint0_linear_6024_2538)",
+    strokeWidth: 0.96,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_2538",
+    x1: 19.9993,
+    y1: 4,
+    x2: 19.9993,
+    y2: 49.1111,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgHighDemandIcon);
+export default __webpack_public_path__ + "static/media/high_demand_icon.9e3013d8718e32e9484ba51ecd7f13b8.svg";
+export { ForwardRef as ReactComponent };

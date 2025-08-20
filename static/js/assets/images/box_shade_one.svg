@@ -1,0 +1,108 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgBoxShadeOne(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 590,
+    height: 130,
+    viewBox: "0 0 590 130",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_6024_11619)"
+  }, /*#__PURE__*/React.createElement("g", {
+    opacity: 0.2,
+    filter: "url(#filter0_f_6024_11619)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M1568.48 -465.854L1619.37 -441.012L726.57 -5.20524L103.718 284.213L675.68 -30.0463L1568.48 -465.854Z",
+    fill: "url(#paint0_linear_6024_11619)",
+    fillOpacity: 0.75
+  })), /*#__PURE__*/React.createElement("g", {
+    opacity: 0.32,
+    filter: "url(#filter1_f_6024_11619)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M1431.08 -545.376L1481.97 -520.535L589.171 -84.7277L-33.6811 204.691L538.281 -109.569L1431.08 -545.376Z",
+    fill: "url(#paint1_linear_6024_11619)",
+    fillOpacity: 0.75
+  })))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_f_6024_11619",
+    x: 23.7178,
+    y: -545.854,
+    width: 1675.65,
+    height: 910.067,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "BackgroundImageFix",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 40,
+    result: "effect1_foregroundBlur_6024_11619"
+  })), /*#__PURE__*/React.createElement("filter", {
+    id: "filter1_f_6024_11619",
+    x: -113.681,
+    y: -625.376,
+    width: 1675.65,
+    height: 910.067,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "BackgroundImageFix",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 40,
+    result: "effect1_foregroundBlur_6024_11619"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_11619",
+    x1: 1593.92,
+    y1: -453.433,
+    x2: 1250.33,
+    y2: 250.46,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#D3D8DF"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_6024_11619",
+    x1: 1456.53,
+    y1: -532.955,
+    x2: 1112.93,
+    y2: 170.938,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#D3D8DF"
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_6024_11619"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 590,
+    height: 300,
+    fill: "white"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBoxShadeOne);
+export default __webpack_public_path__ + "static/media/box_shade_one.30cb93ec61925df78fcc212c11e30b90.svg";
+export { ForwardRef as ReactComponent };

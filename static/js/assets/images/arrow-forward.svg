@@ -1,0 +1,29 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgArrowForward(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 28,
+    height: 28,
+    viewBox: "0 0 28 28",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11.5 7L17.5 14L11.5 21",
+    stroke: "white",
+    strokeWidth: 2,
+    strokeLinecap: "round"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgArrowForward);
+export default __webpack_public_path__ + "static/media/arrow-forward.ec7f95011810e5b4b58f2bfcf588b439.svg";
+export { ForwardRef as ReactComponent };

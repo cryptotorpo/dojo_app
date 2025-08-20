@@ -1,0 +1,39 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCpIconThree(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11.105 19.21C11.7587 19.4691 12.3006 19.9495 12.6362 20.5674C12.9718 21.1852 13.0798 21.9013 12.9414 22.5907C12.8029 23.2801 12.4268 23.8989 11.8786 24.3393C11.3305 24.7797 10.6451 25.0136 9.9421 25.0002C9.23909 24.9869 8.56309 24.7271 8.03207 24.2662C7.50104 23.8053 7.1487 23.1726 7.03654 22.4785C6.92438 21.7844 7.05951 21.0729 7.41836 20.4682C7.77721 19.8635 8.33698 19.4041 9.00001 19.17V12.83C8.33251 12.5941 7.76991 12.1298 7.41165 11.5192C7.05338 10.9086 6.92252 10.191 7.0422 9.49319C7.16187 8.79543 7.52438 8.16244 8.06563 7.70611C8.60689 7.24978 9.29205 6.99949 10 6.99949C10.708 6.99949 11.3931 7.24978 11.9344 7.70611C12.4756 8.16244 12.8381 8.79543 12.9578 9.49319C13.0775 10.191 12.9466 10.9086 12.5884 11.5192C12.2301 12.1298 11.6675 12.5941 11 12.83V16C11.836 15.372 12.874 15 14 15H18C18.6581 15 19.298 14.7837 19.8211 14.3844C20.3442 13.985 20.7215 13.4248 20.895 12.79C20.2382 12.5299 19.6942 12.0464 19.3587 11.4247C19.0233 10.8029 18.918 10.0828 19.0613 9.39104C19.2046 8.69928 19.5873 8.08024 20.1421 7.64292C20.697 7.2056 21.3883 6.97803 22.0944 7.00027C22.8005 7.02251 23.4761 7.29313 24.0023 7.7645C24.5285 8.23587 24.8715 8.87776 24.971 9.57717C25.0705 10.2766 24.92 10.9887 24.5461 11.5881C24.1723 12.1875 23.5989 12.6357 22.927 12.854C22.7256 14.0147 22.1209 15.067 21.2196 15.8255C20.3182 16.584 19.178 16.9999 18 17H14C13.3419 17 12.702 17.2163 12.1789 17.6156C11.6558 18.0149 11.2785 18.5751 11.105 19.21Z",
+    fill: "url(#paint0_linear_6024_9962)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_9962",
+    x1: 15.9995,
+    y1: 6.99878,
+    x2: 15.9995,
+    y2: 32.3766,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCpIconThree);
+export default __webpack_public_path__ + "static/media/cp_icon_three.8b260e29675f38391d96e870d4974275.svg";
+export { ForwardRef as ReactComponent };

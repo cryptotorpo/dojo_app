@@ -1,0 +1,74 @@
+var _rect, _rect2, _rect3, _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIcon8(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 48,
+    height: 48,
+    viewBox: "0 0 48 48",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: -0.000366211,
+    width: 48,
+    height: 48,
+    rx: 8,
+    fill: "#09090A"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.499634,
+    y: 0.5,
+    width: 47,
+    height: 47,
+    rx: 7.5,
+    stroke: "url(#paint0_linear_6024_9803)",
+    strokeOpacity: 0.08
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.499634,
+    y: 0.5,
+    width: 47,
+    height: 47,
+    rx: 7.5,
+    stroke: "white",
+    strokeOpacity: 0.01
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M23.1246 15.2939V24.8752H32.7059C32.2675 29.2966 28.5365 32.7502 23.9996 32.7502C19.167 32.7502 15.2496 28.8328 15.2496 24.0002C15.2496 19.4633 18.7033 15.7323 23.1246 15.2939ZM24.8746 15.2939C26.8827 15.4962 28.7592 16.3863 30.1864 17.8135C31.6135 19.2406 32.5036 21.1171 32.7059 23.1252H24.8746V15.2939Z",
+    fill: "url(#paint1_linear_6024_9803)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_9803",
+    x1: 23.9996,
+    y1: 0,
+    x2: 23.9996,
+    y2: 38,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_6024_9803",
+    x1: 23.9778,
+    y1: 15.2939,
+    x2: 23.9778,
+    y2: 39.9024,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIcon8);
+export default __webpack_public_path__ + "static/media/Icon-8.4d9e5974772ed387a442f5c49541287e.svg";
+export { ForwardRef as ReactComponent };

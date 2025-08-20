@@ -1,0 +1,3623 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDCompIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 351,
+    height: 178,
+    viewBox: "0 0 351 178",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    filter: "url(#filter0_d_6024_2733)"
+  }, /*#__PURE__*/React.createElement("g", {
+    opacity: 0.25,
+    filter: "url(#filter1_f_6024_2733)"
+  }, /*#__PURE__*/React.createElement("ellipse", {
+    cx: 131.815,
+    cy: 128.025,
+    rx: 131.815,
+    ry: 128.025,
+    transform: "matrix(-1 0 0 1 307.315 43.4478)",
+    fill: "white"
+  })), /*#__PURE__*/React.createElement("g", {
+    filter: "url(#filter2_i_6024_2733)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 42.4209,
+    y: 38.8154,
+    width: 266.158,
+    height: 266.158,
+    rx: 16,
+    fill: "#0F1113"
+  })), /*#__PURE__*/React.createElement("rect", {
+    x: 42.6709,
+    y: 39.0654,
+    width: 265.658,
+    height: 265.658,
+    rx: 15.75,
+    stroke: "white",
+    strokeOpacity: 0.08,
+    strokeWidth: 0.5
+  }), /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_6024_2733)"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 277.415,
+    y: 273.809,
+    width: 203.83,
+    height: 203.83,
+    rx: 20.2145,
+    transform: "rotate(-180 277.415 273.809)",
+    fill: "black"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 70.4006,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 76.2961,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 82.1921,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 88.0881,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 93.9841,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 99.8796,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 105.776,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 111.672,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 117.568,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 123.464,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 129.359,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 135.255,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 141.151,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 147.047,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 152.943,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 158.839,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 164.735,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 170.631,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 72.3222,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 78.2182,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 84.1141,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 90.01,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 95.9059,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 101.802,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 107.698,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 113.594,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 119.489,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 125.385,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 131.281,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 137.177,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 143.073,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 148.969,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 154.865,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 160.761,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 166.657,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 172.553,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 178.448,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 184.344,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 190.24,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 196.136,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 202.032,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 207.928,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 213.824,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 219.72,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 225.616,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 231.512,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 237.407,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 243.303,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 249.199,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 255.095,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 260.991,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 266.887,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: 272.783,
+    cy: 176.527,
+    r: 1.26341,
+    fill: "#14171A"
+  }), /*#__PURE__*/React.createElement("rect", {
+    x: 73.7958,
+    y: 70.1901,
+    width: 203.408,
+    height: 203.408,
+    rx: 20.0039,
+    fill: "url(#paint0_linear_6024_2733)",
+    stroke: "url(#paint1_linear_6024_2733)",
+    strokeWidth: 0.421136
+  })), /*#__PURE__*/React.createElement("rect", {
+    x: 113.803,
+    y: 110.198,
+    width: 123.393,
+    height: 123.393,
+    rx: 16.6349,
+    fill: "url(#paint2_linear_6024_2733)",
+    stroke: "url(#paint3_linear_6024_2733)",
+    strokeWidth: 0.421136
+  }), /*#__PURE__*/React.createElement("path", {
+    opacity: 0.25,
+    d: "M178.553 151.364H199.61L173.289 190.845V167.156H154.864L178.553 127.675V151.364ZM173.289 156.628V146.679L164.161 161.892H178.553V173.458L189.774 156.628H173.289Z",
+    fill: "url(#paint4_linear_6024_2733)"
+  }), /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip1_6024_2733)"
+  }, /*#__PURE__*/React.createElement("ellipse", {
+    opacity: 0.5,
+    cx: 175.5,
+    cy: 55.661,
+    rx: 156.662,
+    ry: 68.224,
+    fill: "url(#paint5_linear_6024_2733)"
+  }), /*#__PURE__*/React.createElement("line", {
+    opacity: 0.25,
+    x1: 42.4209,
+    y1: 39.2366,
+    x2: 307.736,
+    y2: 39.2366,
+    stroke: "url(#paint6_linear_6024_2733)",
+    strokeWidth: 0.842271
+  })))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("filter", {
+    id: "filter0_d_6024_2733",
+    x: -0.113556,
+    y: 0.0709584,
+    width: 351.227,
+    height: 350.385,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/React.createElement("feOffset", {
+    dy: 3.36908
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 21.0568
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "hardAlpha",
+    operator: "out"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in2: "BackgroundImageFix",
+    result: "effect1_dropShadow_6024_2733"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "effect1_dropShadow_6024_2733",
+    result: "shape"
+  })), /*#__PURE__*/React.createElement("filter", {
+    id: "filter1_f_6024_2733",
+    x: 16.7319,
+    y: 16.4951,
+    width: 317.536,
+    height: 309.956,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "BackgroundImageFix",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 13.4763,
+    result: "effect1_foregroundBlur_6024_2733"
+  })), /*#__PURE__*/React.createElement("filter", {
+    id: "filter2_i_6024_2733",
+    x: 42.4209,
+    y: 38.8154,
+    width: 266.158,
+    height: 266.158,
+    filterUnits: "userSpaceOnUse",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/React.createElement("feFlood", {
+    floodOpacity: 0,
+    result: "BackgroundImageFix"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in: "SourceGraphic",
+    in2: "BackgroundImageFix",
+    result: "shape"
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    in: "SourceAlpha",
+    type: "matrix",
+    values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0",
+    result: "hardAlpha"
+  }), /*#__PURE__*/React.createElement("feOffset", null), /*#__PURE__*/React.createElement("feGaussianBlur", {
+    stdDeviation: 4
+  }), /*#__PURE__*/React.createElement("feComposite", {
+    in2: "hardAlpha",
+    operator: "arithmetic",
+    k2: -1,
+    k3: 1
+  }), /*#__PURE__*/React.createElement("feColorMatrix", {
+    type: "matrix",
+    values: "0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"
+  }), /*#__PURE__*/React.createElement("feBlend", {
+    mode: "normal",
+    in2: "shape",
+    result: "effect1_innerShadow_6024_2733"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_2733",
+    x1: 170.778,
+    y1: 273.809,
+    x2: 172.311,
+    y2: -17.4919,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", null), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_6024_2733",
+    x1: 175.5,
+    y1: 69.9795,
+    x2: 175.5,
+    y2: 273.809,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#191919"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#313335"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_6024_2733",
+    x1: 219.819,
+    y1: 114.912,
+    x2: 139.27,
+    y2: 233.801,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#0F1113"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint3_linear_6024_2733",
+    x1: 175.5,
+    y1: 109.987,
+    x2: 175.5,
+    y2: 233.801,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#191919"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#313335"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint4_linear_6024_2733",
+    x1: 177.237,
+    y1: 127.675,
+    x2: 177.237,
+    y2: 216.727,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint5_linear_6024_2733",
+    x1: 169.368,
+    y1: 106.254,
+    x2: 167.729,
+    y2: -4.28488,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#D8D8D8"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint6_linear_6024_2733",
+    x1: 42.4209,
+    y1: 40.6579,
+    x2: 307.736,
+    y2: 40.6579,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white",
+    stopOpacity: 0
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_6024_2733"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 277.415,
+    y: 273.809,
+    width: 203.83,
+    height: 203.83,
+    rx: 20.2145,
+    transform: "rotate(-180 277.415 273.809)",
+    fill: "white"
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip1_6024_2733"
+  }, /*#__PURE__*/React.createElement("rect", {
+    x: 307.736,
+    y: 118.831,
+    width: 265.315,
+    height: 80.0157,
+    rx: 16,
+    transform: "rotate(-180 307.736 118.831)",
+    fill: "white"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDCompIcon);
+export default __webpack_public_path__ + "static/media/d_comp_icon.4b1839449653a92d39ce59118b7276e8.svg";
+export { ForwardRef as ReactComponent };

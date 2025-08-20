@@ -1,0 +1,36 @@
+var _circle, _circle2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgMarker(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 30,
+    height: 30,
+    viewBox: "0 0 30 30",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 15,
+    cy: 15,
+    r: 12,
+    fill: "black"
+  })), _circle2 || (_circle2 = /*#__PURE__*/React.createElement("circle", {
+    cx: 15,
+    cy: 15,
+    r: 13.5,
+    stroke: "white",
+    strokeOpacity: 0.1,
+    strokeWidth: 3
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgMarker);
+export default __webpack_public_path__ + "static/media/marker.59d226be9d486f33e4b0399217f52ddd.svg";
+export { ForwardRef as ReactComponent };

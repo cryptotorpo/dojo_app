@@ -1,0 +1,65 @@
+.home-price-box {
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.home-stats-box {
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.home-stats-sub-box {
+  width: 30%;
+}
+
+.home-title {
+  border-radius: 32px;
+  background-color: rgba(0, 220, 114, 0.1);
+  padding: 6px 20px 6px 20px;
+  width: max-content;
+  margin-bottom: 10px;
+  font-family: "ProximaNovaLight";
+  font-size: 18px;
+  color: rgba(0, 220, 114, 1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home-stats-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .home-price-box {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .home-stats-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .home-price-box {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+}

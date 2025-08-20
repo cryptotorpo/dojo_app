@@ -1,0 +1,75 @@
+var _rect, _rect2, _rect3, _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgAtomIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 80,
+    height: 80,
+    viewBox: "0 0 80 80",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 80,
+    height: 80,
+    rx: 40,
+    fill: "#09090A"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 79,
+    height: 79,
+    rx: 39.5,
+    stroke: "url(#paint0_linear_6024_9921)",
+    strokeOpacity: 0.08
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 79,
+    height: 79,
+    rx: 39.5,
+    stroke: "white",
+    strokeOpacity: 0.01
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M27.7163 26.5025C29.1995 25.0427 31.9778 24.7192 35.6978 25.9923C37.0565 26.4573 38.4899 27.1215 39.9503 27.9718C37.9181 29.2846 35.8776 30.9136 33.9368 32.8237C31.9962 34.7336 30.335 36.7475 28.9901 38.7582C28.1632 37.2845 27.522 35.8407 27.0788 34.4748C25.8652 30.735 26.2331 27.9622 27.7163 26.5025ZM28.2612 39.8979C24.8104 34.0349 24.0651 28.4122 26.8746 25.6472C29.6841 22.8822 35.2943 23.7172 41.1016 27.2612C46.9646 23.8105 52.5873 23.0652 55.3523 25.8746C58.1173 28.6841 57.2823 34.2941 53.7385 40.1013C57.1897 45.9646 57.9352 51.5877 55.1256 54.3528C52.316 57.1179 46.7057 56.2828 40.8982 52.7386C35.0349 56.1897 29.4118 56.9352 26.6467 54.1256C23.8816 51.316 24.7168 45.7055 28.2612 39.8979ZM39.7585 52.0097C38.2845 52.8367 36.8405 53.4781 35.4743 53.9214C31.7345 55.135 28.9617 54.7671 27.502 53.2839C26.0422 51.8007 25.7187 49.0224 26.9918 45.3024C27.4569 43.9435 28.1212 42.5098 28.9718 41.0492C30.2846 43.0814 31.9135 45.1219 33.8237 47.0628C35.7337 49.0035 37.7477 50.6647 39.7585 52.0097ZM40.9095 51.3296C38.8165 49.9838 36.6938 48.2683 34.6789 46.221C32.6639 44.1735 30.9824 42.0236 29.6702 39.9092C31.0159 37.8163 32.7313 35.6938 34.7785 33.679C36.826 31.6639 38.9759 29.9824 41.0903 28.6702C43.1835 30.016 45.3062 31.7315 47.3212 33.779C49.336 35.8262 51.0174 37.9759 52.3295 40.09C50.9837 42.1833 49.2681 44.3061 47.2205 46.3213C45.1733 48.3361 43.0236 50.0174 40.9095 51.3296ZM42.0495 52.0279C43.51 52.8784 44.9435 53.5427 46.3024 54.0077C50.0223 55.2808 52.8006 54.9573 54.2839 53.4975C55.7671 52.0378 56.1349 49.265 54.9214 45.5252C54.4781 44.159 53.8367 42.715 53.0096 41.241C51.6646 43.2521 50.0032 45.2663 48.0623 47.1765C46.1216 49.0864 44.0814 50.7152 42.0495 52.0279ZM53.0279 38.95C53.8781 37.4897 54.5423 36.0564 55.0072 34.6978C56.2803 30.9779 55.9568 28.1996 54.497 26.7163C53.0373 25.2331 50.2645 24.8653 46.5247 26.0788C45.1588 26.522 43.7151 27.1633 42.2414 27.9901C44.2523 29.3352 46.2664 30.9964 48.1765 32.9372C50.0864 34.8779 51.7152 36.9181 53.0279 38.95ZM40.9997 32.1687L41.1031 35.913C41.1638 38.1104 42.9309 39.8775 45.1283 39.9382L48.8726 40.0416L45.1283 40.1449C42.9309 40.2056 41.1638 41.9727 41.1031 44.1701L40.9997 47.9144L40.8964 44.1701C40.8357 41.9727 39.0686 40.2056 36.8712 40.1449L33.1269 40.0416L36.8712 39.9382C39.0686 39.8775 40.8357 38.1104 40.8964 35.913L40.9997 32.1687Z",
+    fill: "url(#paint1_linear_6024_9921)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_9921",
+    x1: 40,
+    y1: 0,
+    x2: 40,
+    y2: 63.3333,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "white",
+    stopOpacity: 0
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_6024_9921",
+    x1: 40.9995,
+    y1: 24,
+    x2: 40.9995,
+    y2: 69.1111,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgAtomIcon);
+export default __webpack_public_path__ + "static/media/atom_icon.a8f21f865594a7ef1599e46abe7c76e5.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,39 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgCpIconOne(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17 22V24H21V26H11V24H15V22H6.99198C6.86067 21.9992 6.7308 21.9725 6.60982 21.9215C6.48884 21.8704 6.37913 21.7959 6.28697 21.7024C6.19482 21.6088 6.12203 21.498 6.07278 21.3763C6.02353 21.2546 5.99879 21.1243 5.99998 20.993V8.007C5.99998 7.451 6.45498 7 6.99198 7H25.008C25.556 7 26 7.449 26 8.007V20.993C26 21.549 25.545 22 25.008 22H17Z",
+    fill: "url(#paint0_linear_6024_9956)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_9956",
+    x1: 16,
+    y1: 7,
+    x2: 16,
+    y2: 33.7847,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCpIconOne);
+export default __webpack_public_path__ + "static/media/cp_icon_one.4b9916d3042e863ac5d4840ba6146d8e.svg";
+export { ForwardRef as ReactComponent };

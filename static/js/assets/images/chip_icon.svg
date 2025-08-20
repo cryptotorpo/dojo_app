@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgChipIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 33,
+    height: 32,
+    viewBox: "0 0 33 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M10.5 22H22.5V10H10.5V22ZM18.5 24H14.5V26H12.5V24H9.5C9.23478 24 8.98043 23.8946 8.79289 23.7071C8.60536 23.5196 8.5 23.2652 8.5 23V20H6.5V18H8.5V14H6.5V12H8.5V9C8.5 8.73478 8.60536 8.48043 8.79289 8.29289C8.98043 8.10536 9.23478 8 9.5 8H12.5V6H14.5V8H18.5V6H20.5V8H23.5C23.7652 8 24.0196 8.10536 24.2071 8.29289C24.3946 8.48043 24.5 8.73478 24.5 9V12H26.5V14H24.5V18H26.5V20H24.5V23C24.5 23.2652 24.3946 23.5196 24.2071 23.7071C24.0196 23.8946 23.7652 24 23.5 24H20.5V26H18.5V24ZM12.5 12H20.5V20H12.5V12Z",
+    fill: "#D1D1D1"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgChipIcon);
+export default __webpack_public_path__ + "static/media/chip_icon.a680072a614aa642cfb62d12f2eb4749.svg";
+export { ForwardRef as ReactComponent };

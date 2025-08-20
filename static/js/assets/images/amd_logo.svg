@@ -1,0 +1,36 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgAmdLogo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 176,
+    height: 72,
+    viewBox: "0 0 176 72",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_6024_11349)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M55.2208 49.0062H48.3992L46.3124 43.8588H34.9435L33.0422 49.0062H26.333L36.5831 23.0088H43.9263L55.2208 49.0062ZM40.3481 29.2209L36.6207 39.322H44.4486L40.3481 29.2209ZM80.0004 23.0088H85.5169V49.0062H79.1795V32.7674L72.321 40.9241H71.3522L64.4942 32.7674V49.0058H58.1568V23.0088H63.6733L71.8362 32.6526L80.0004 23.0088ZM101.574 23.0088C110.855 23.0088 115.626 28.9164 115.626 36.0446C115.626 43.5157 111.004 49.0062 100.866 49.0062H90.354V23.0088H101.574ZM96.691 44.2413H100.828C107.202 44.2413 109.103 39.8186 109.103 36.0061C109.103 31.5457 106.754 27.773 100.753 27.773H96.6909V44.2413H96.691ZM128.234 29.173L120.243 21H149.333V50.7495L141.342 42.5775V29.173H128.234ZM128.224 30.8107L119.998 39.2235V50.9998H131.512L139.738 42.5871H128.224V30.8107Z",
+    fill: "#5F6165"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_6024_11349"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 123,
+    height: 30,
+    fill: "white",
+    transform: "translate(26.333 21)"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgAmdLogo);
+export default __webpack_public_path__ + "static/media/amd_logo.fe404ec8cf4f65c01718a52d14bd710d.svg";
+export { ForwardRef as ReactComponent };

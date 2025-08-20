@@ -1,0 +1,42 @@
+var _path, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgEfficientIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 40,
+    viewBox: "0 0 40 40",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M34.6278 20.3049C34.6278 14.5098 31.2681 9.5002 26.3921 7.12161M34.6278 20.3049C33.8697 20.3049 33.2548 20.9201 33.2548 21.679C33.2548 22.4379 33.8693 23.053 34.6274 23.053C35.3855 23.053 36 22.4379 36 21.679C36 20.9201 35.3859 20.3049 34.6278 20.3049ZM19.9865 5.64818C13.0005 5.64818 7.15723 10.5461 5.69655 17.0988M26.3921 7.12161C26.0282 7.78735 25.1941 8.0319 24.5291 7.66765C23.864 7.3034 23.6199 6.46842 23.9837 5.80268C24.3476 5.13693 25.1817 4.89253 25.8467 5.25678C26.5118 5.62104 26.7559 6.45587 26.3921 7.12161ZM5.60213 23.053C6.88711 29.8341 12.8386 34.9616 19.9865 34.9616C25.179 34.9616 29.7402 32.2558 32.3397 28.1758M29.6223 20.6607C29.6223 26.2258 25.1156 30.7372 19.5564 30.7372C13.9971 30.7372 9.49049 26.2258 9.49049 20.6607C9.49049 16.3883 12.1466 12.7369 15.8961 11.2711M19.5564 10.5842C23.863 10.5842 27.5379 13.2915 28.9753 17.0988M6.70794 18.7546C6.53169 19.4927 5.7911 19.948 5.0538 19.7716C4.31649 19.5951 3.86167 18.8538 4.03793 18.1157C4.21418 17.3776 4.95477 16.9223 5.69207 17.0988C6.42938 17.2752 6.8842 18.0166 6.70794 18.7546ZM25.962 20.6607C25.962 24.2021 23.0941 27.073 19.5564 27.073C16.0187 27.073 13.1508 24.2021 13.1508 20.6607C13.1508 17.1192 16.0187 14.2483 19.5564 14.2483C23.0941 14.2483 25.962 17.1192 25.962 20.6607Z",
+    stroke: "url(#paint0_linear_6024_2545)",
+    strokeWidth: 0.96,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_6024_2545",
+    x1: 20,
+    y1: 5.08789,
+    x2: 20,
+    y2: 47.2016,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "white"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#363A3F"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgEfficientIcon);
+export default __webpack_public_path__ + "static/media/efficient_icon.9c7d2f2f519044667a9fda39e1f71282.svg";
+export { ForwardRef as ReactComponent };

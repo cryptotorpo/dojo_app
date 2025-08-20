@@ -1,0 +1,39 @@
+.divider {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  height: 60px;
+  margin-top: 30px;
+  width: 5%;
+  /* background-color: red; */
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .divider {
+    border-left: 0px solid rgba(255, 255, 255, 0.1);
+    height: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .divider {
+    border-left: 0px solid rgba(255, 255, 255, 0.1);
+    height: 60px;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 1043px) and (max-width: 1700px) {
+  .divider {
+    border-left: 0px solid rgba(255, 255, 255, 0.1);
+    height: 60px;
+    margin-top: 30px;
+  }
+}
+
+/* @media (min-width: 1024px) and (max-width: 1279px) {
+  .divider {
+    border-left: 0px solid rgba(255, 255, 255, 0.1);
+    height: 60px;
+    margin-top: 30px;
+  }
+} */

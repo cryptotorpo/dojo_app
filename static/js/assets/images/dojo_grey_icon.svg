@@ -1,0 +1,30 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgDojoGreyIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 26,
+    height: 26,
+    viewBox: "0 0 26 26",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17.351 7.86653H8.64651C8.64651 7.86653 7.13172 7.97312 6.09661 6.82861C6.00404 9.99565 8.64651 10.5595 8.64651 10.5595H17.351C17.351 10.5595 19.9934 9.99565 19.9008 6.82861C18.8657 7.97312 17.351 7.86653 17.351 7.86653Z",
+    fill: "#D1D1D1"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.0001 0.623535C6.17509 0.623535 0.623657 6.17496 0.623657 12.9999C0.623657 19.8249 6.17509 25.3763 13.0001 25.3763C19.825 25.3763 25.3765 19.8249 25.3765 12.9999C25.3765 6.17496 19.8222 0.623535 13.0001 0.623535ZM11.2384 23.0481V14.5175H14.7589V23.0481C14.1866 23.149 13.5976 23.2023 12.9973 23.2023C12.3969 23.2023 11.8079 23.1462 11.2356 23.0481H11.2384ZM17.7015 22.0494V14.5147H18.7563C18.7563 14.5147 21.3987 13.9509 21.3062 10.7839C20.2711 11.9284 18.7563 11.8218 18.7563 11.8218H7.24385C7.24385 11.8218 5.72906 11.9284 4.69396 10.7839C4.60139 13.9509 7.24385 14.5147 7.24385 14.5147H8.2986V22.0494C5.03338 20.3467 2.79766 16.93 2.79766 12.9971C2.79486 7.37277 7.37289 2.79474 13.0001 2.79474C18.6272 2.79474 23.2025 7.37277 23.2025 12.9971C23.2025 16.9272 20.9667 20.3439 17.7015 22.0494Z",
+    fill: "#D1D1D1"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgDojoGreyIcon);
+export default __webpack_public_path__ + "static/media/dojo_grey_icon.59b0bea29fb311f4509af50fee4beee8.svg";
+export { ForwardRef as ReactComponent };

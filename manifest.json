@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "dojo.svg",
+      "type": "image/psvg",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "dojo.svg",
+      "type": "image/psvg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "dojo.svg",
+      "type": "image/psvg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

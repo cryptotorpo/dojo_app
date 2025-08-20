@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgExchangeLines(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 33,
+    height: 32,
+    viewBox: "0 0 33 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 26C10.977 26 6.5 21.523 6.5 16C6.5 10.477 10.977 6 16.5 6C22.023 6 26.5 10.477 26.5 16C26.5 21.523 22.023 26 16.5 26ZM16.5 24C18.6217 24 20.6566 23.1571 22.1569 21.6569C23.6571 20.1566 24.5 18.1217 24.5 16C24.5 13.8783 23.6571 11.8434 22.1569 10.3431C20.6566 8.84285 18.6217 8 16.5 8C14.3783 8 12.3434 8.84285 10.8431 10.3431C9.34285 11.8434 8.5 13.8783 8.5 16C8.5 18.1217 9.34285 20.1566 10.8431 21.6569C12.3434 23.1571 14.3783 24 16.5 24ZM11.5 17H20.5V19H16.5V22L11.5 17ZM16.5 13V10L21.5 15H12.5V13H16.5Z",
+    fill: "#D1D1D1"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgExchangeLines);
+export default __webpack_public_path__ + "static/media/exchange_lines.efe70491b928c43565a917d6e4cf186a.svg";
+export { ForwardRef as ReactComponent };

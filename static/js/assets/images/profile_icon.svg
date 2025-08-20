@@ -1,0 +1,47 @@
+var _rect, _rect2, _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgProfileIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 48,
+    height: 48,
+    viewBox: "0 0 48 48",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 47,
+    height: 47,
+    rx: 23.5,
+    fill: "black"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 47,
+    height: 47,
+    rx: 23.5,
+    stroke: "#313335"
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_8008_1121)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M30.5625 31H17.4382C16.7318 31 16.2102 30.303 16.4766 29.662C17.7128 26.698 20.6169 25 23.9998 25C27.3838 25 30.288 26.698 31.5241 29.662C31.7906 30.303 31.2689 31 30.5625 31ZM19.9167 19C19.9167 16.794 21.749 15 23.9998 15C26.2517 15 28.083 16.794 28.083 19C28.083 21.206 26.2517 23 23.9998 23C21.749 23 19.9167 21.206 19.9167 19ZM33.9557 30.636C33.2136 27.277 30.8923 24.798 27.837 23.673C29.456 22.396 30.4002 20.3309 30.0532 18.0699C29.651 15.4469 27.4236 13.348 24.7348 13.042C21.0232 12.619 17.8751 15.449 17.8751 19C17.8751 20.89 18.7693 22.574 20.1637 23.673C17.1074 24.798 14.7872 27.277 14.044 30.636C13.7745 31.857 14.779 33 16.054 33H31.9457C33.2217 33 34.2262 31.857 33.9557 30.636Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip1_8008_1121)"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null)));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgProfileIcon);
+export default __webpack_public_path__ + "static/media/profile_icon.65e20d0488e9fb769d66e1e9bc650d07.svg";
+export { ForwardRef as ReactComponent };

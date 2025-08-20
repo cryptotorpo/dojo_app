@@ -1,0 +1,29 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgXIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 33,
+    viewBox: "0 0 32 33",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M11.1429 5.8335H4L12.4689 17.4348L4.54177 27.1668H8.20434L14.1999 19.8062L19.5238 27.0991H26.6667L17.9517 15.1606L17.9671 15.1812L25.4708 5.96897H21.8083L16.2358 12.8102L11.1429 5.8335ZM7.94276 7.86526H10.1664L22.7239 25.0673H20.5002L7.94276 7.86526Z",
+    fill: "#94989C"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgXIcon);
+export default __webpack_public_path__ + "static/media/x_icon.d6f8cf30db17792c607bc7e14f066d4b.svg";
+export { ForwardRef as ReactComponent };
